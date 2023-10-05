@@ -2,7 +2,7 @@
 
 int add(int amount)
 {
-    int a[] = {2000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int a[] = {500, 200, 100, 50, 20, 10, 5, 2, 1};
     int p;
     for (int i = 0; i < 10; i++)
     {
@@ -17,7 +17,7 @@ int add(int amount)
 
 int main()
 {
-    int a[] = {2000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int a[] = {500, 200, 100, 50, 20, 10, 5, 2, 1};
     int amount, p;
     std::cout << "enter amount:";
     std::cin >> amount;
