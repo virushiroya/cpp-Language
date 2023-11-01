@@ -5,16 +5,12 @@ using namespace std;
 
 int main()
 {
-    double b=1.849292;
-    double result , result1 , result2;
+    int max = 120;
+    int min = 50;
+    int rn;
 
-    result = ceil(b);
-    result1 = floor(b);
-    result2 = round(b);
-
-    cout<<result<<endl;
-    cout<<result1<<endl;
-    cout<<result2;
+  rn = min +rand() % (max-min+1);
+  cout<<rn;
 
     return 0;
 }
