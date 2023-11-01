@@ -105,8 +105,9 @@ public:
         cout<<"                 shiroya soup pvt. Ltd....                   "<< endl;
         cout<<"                  Plot No 3, jakatnaka,                      "<< endl;
         cout<<"                      Surat-395006                          "<< endl;
-        cout<<"                  Customer Order Receipt                  "<< endl;
+        cout<<"                  Customer Order Receipt                   "<< endl;
         cout<<"                   phone no : 7202865162                 "<< endl;
+        cout << "\n-------------------------------------------------------" << endl;
         cout <<  "\n   Contact Name       : " << name << endl;       
         cout <<  "   Contact Number     : " << number << endl;
         Show_bill_Items();

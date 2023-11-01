@@ -22,7 +22,7 @@ class DOg : public Pet
 };
 
 class Cat : public Pet
-{
+{     
     public:
     void print() override
     {
@@ -31,8 +31,8 @@ class Cat : public Pet
 
 };
 
-{
 int main()
+{
     Pet* mypet;
 
     DOg mydog;
