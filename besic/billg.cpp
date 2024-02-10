@@ -16,7 +16,7 @@ public:
         cin >> name;
         cout << "Enter a Number a coustmor :";
         cin >> number;
-        cout << "---------------------------------------" << endl;
+        cout << "----------------------------------------" << endl;
     }
     void showinformation()
     {
